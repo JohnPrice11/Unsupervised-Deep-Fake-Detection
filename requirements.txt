@@ -1,0 +1,53 @@
+# Core
+torch>=2.1.0
+torchvision
+torchaudio
+
+# Optional: install torch with CUDA (if you're installing manually use pip wheels from https://pytorch.org)
+# torch==2.1.0+cu118
+
+# Hugging Face ecosystem
+transformers>=4.36.0
+datasets>=2.16.0
+accelerate>=0.26.0
+evaluate
+huggingface_hub
+tokenizers
+sentencepiece  # Needed for T5, mT5, etc.
+
+# Vision-language models and tools
+timm  # For ViT and other vision models
+opencv-python
+scikit-image
+Pillow
+imageio
+
+# For CLIP, ViT, and other vision encoders
+git+https://github.com/openai/CLIP.git
+
+# Trainer/Logging utilities
+tensorboard
+wandb
+
+# Utilities
+scipy
+numpy
+pandas
+matplotlib
+tqdm
+
+# Optional: mixed precision training
+#nvidia-apex  # only if using mixed-precision manually (needs manual install)
+
+# Optional: Tokenization for VQA datasets
+nltk
+
+# Optional: for COCO-style datasets (VQA, SLAKE, etc.)
+pycocotools
+
+# Optional: if using PyTorch Lightning or other trainer wrappers
+pytorch-lightning
+
+# Jupyter support (optional)
+ipython
+jupyterlab

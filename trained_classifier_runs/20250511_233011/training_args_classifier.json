@@ -1,0 +1,19 @@
+{
+    "image_dir": "/home/teaching/deepfake/FF_frames",
+    "pseudo_label_file": "/home/teaching/deepfake/project/files/Unsupervised_DF_Detection/output_gpu/FF_real_labels/image_pseudo_labels_gpu.json",
+    "ckpt_path_encoder": "/home/teaching/deepfake/project/files/Unsupervised_DF_Detection/save/ECL_convnext_base/FF_frames_models/20250511_142820/ckpt_epoch_006.pth",
+    "output_dir_classifier": "/home/teaching/deepfake/project/files/Unsupervised_DF_Detection/trained_classifier_runs",
+    "dataset_name": "FF",
+    "classifier_epochs": 20,
+    "classifier_lr": 0.0001,
+    "batch_size": 128,
+    "num_workers": 8,
+    "classifier_hidden_dim1": 512,
+    "classifier_hidden_dim2": 128,
+    "frame_size": [
+        299,
+        299
+    ],
+    "classifier_checkpoint_freq": 2,
+    "resume_classifier_ckpt": null
+}
