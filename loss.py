@@ -67,17 +67,9 @@ class ECLoss(nn.Module):
             anchor_count = contrast_count  
         else:
             raise ValueError('Unknown mode: {}'.format(self.contrast_mode))
-
-         
          
         anchor_feature = F.normalize(anchor_feature, dim=1)
-        contrast_feature = F.normalize(contrast_feature, dim=1)
-
-         
-         
-         
-         
-         
+        contrast_feature = F.normalize(contrast_feature, dim=1) 
         anchor_dot_contrast = torch.div(
             torch.matmul(anchor_feature, contrast_feature.T),
             self.temperature)  
@@ -99,13 +91,7 @@ class ECLoss(nn.Module):
             torch.arange(batch_size * anchor_count).view(-1, 1).to(device),  
             0  
         )
-         
-         
-         
-         
-         
 
-         
          
         exp_logits = torch.exp(logits) * logits_mask
         exp_logits_sum = exp_logits.sum(1, keepdim=True)
