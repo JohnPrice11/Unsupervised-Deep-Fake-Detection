@@ -76,20 +76,15 @@ Preprocessing includes frame extraction and labelling:
 | CelebDF-v2 (Baseline) | -- | -- | --         | Baseline |
 | CelebDF-v2 (Ours)     | 89.80 | -- | --       | Ours    |
 
-![image1](image1)
-
 ### Distribution Plots
 
 - **Left:** Original (Spearman correlation)
 - **Right:** Our improvement (Euclidean distance, ConvNeXt_base)
-
-![image2](image2)
+![Screenshot from 2025-06-26 12-52-36](https://github.com/user-attachments/assets/5f8925ac-2541-44af-b3ef-e40117d251e8)
 
 ### t-SNE Feature Visualization
 
 - Left: Epoch 0  |  Right: Epoch 16
-
-![image3](image3)
 
 ---
 
