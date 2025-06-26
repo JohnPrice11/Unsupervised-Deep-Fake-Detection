@@ -80,11 +80,14 @@ Preprocessing includes frame extraction and labelling:
 
 - **Left:** Original (Spearman correlation)
 - **Right:** Our improvement (Euclidean distance, ConvNeXt_base)
+  
 ![Screenshot from 2025-06-26 12-52-36](https://github.com/user-attachments/assets/5f8925ac-2541-44af-b3ef-e40117d251e8)
 
 ### t-SNE Feature Visualization
 
 - Left: Epoch 0  |  Right: Epoch 16
+  
+![Screenshot from 2025-06-26 12-52-12](https://github.com/user-attachments/assets/4397dd75-7a89-4865-905f-8424b766bd5b)
 
 ---
 
