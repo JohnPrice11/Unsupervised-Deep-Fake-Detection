@@ -1,3 +1,5 @@
+[https://docs.google.com/presentation/d/1bYCxNCku8iaogia66flA8zTH6uOEnXrB/edit?usp=sharing&ouid=105290732960658123455&rtpof=true&sd=true]
+
 # Improved Unsupervised DeepFake Detection
 
 This repository builds upon the original [@bestalllen/Unsupervised_DF_Detection](https://github.com/bestalllen/Unsupervised_DF_Detection) project, addressing its limitations and introducing several enhancements for more effective unsupervised DeepFake detection using deep learning.
